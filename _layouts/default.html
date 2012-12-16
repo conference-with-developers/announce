@@ -7,6 +7,7 @@
     <!--[if IE]>
       <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway|Archivo+Narrow' rel='stylesheet' type='text/css'>
   </head>
   <body>
     {% if page.url != '/index.html' %}
@@ -17,7 +18,14 @@
     <article>
       {{ content }}
     </article>
+    <div class="style line x2">
+    </div>
+    <div class="style line x4 dark">
+    </div>
+    <div class="style line x1">
+    </div>
     <footer>
+      {% include navigation.html %}
     </footer>
   </body>
 </html>

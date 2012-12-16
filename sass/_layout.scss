@@ -1,0 +1,17 @@
+article > div.bracket {
+  padding: 120px 0;
+  text-align: center;
+}
+
+footer > nav {
+  text-align: center;
+  ul {
+    display: block;
+    margin: 50px;
+    li {
+      display: inline-block;
+      margin: 15px;
+    }
+  }
+}
+

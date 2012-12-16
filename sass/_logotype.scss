@@ -1,0 +1,27 @@
+div.bracket:before {
+  content: '[';
+  font-family: 'Raleway';
+  font-size: 14em;
+  color: #eee;
+}
+
+div.bracket:after {
+  content: ']';
+  font-family: 'Raleway';
+  font-size: 14em;
+  color: #eee;
+}
+
+div.bracket {
+  vertical-align: middle;
+}
+hgroup.logotype {
+  display: inline-block;
+}
+/*
+  :after {
+    content: ']'
+  }
+}
+
+*/

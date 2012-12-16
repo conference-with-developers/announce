@@ -1,3 +1,0 @@
-all:
-	jekyll
-	compass compile
