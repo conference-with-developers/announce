@@ -2,10 +2,16 @@ body {
   background-color: #003e59;
 }
 
-body > article,
-body > header {
+body > div { 
   background-color: #f8f8f8;
 }
 
 body > footer {
+
+
+}
+
+p {
+  margin: 0.5em 0 2.4em 0;
+  line-height: 1.75em;
 }

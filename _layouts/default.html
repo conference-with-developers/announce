@@ -2,6 +2,7 @@
 <html lang="ja">
   <head>
     <title>conferenceWithDevelopers</title>
+    <meta charset="utf-8" />
     <link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="./stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
     <!--[if IE]>
@@ -10,19 +11,21 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway|Archivo+Narrow' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    {% if page.url != '/index.html' %}
-    <header>
-      {% include title.html %}
-    </header>
-    {% endif %}
-    <article>
-      {{ content }}
-    </article>
-    <div class="style line x2">
-    </div>
-    <div class="style line x4 dark">
-    </div>
-    <div class="style line x1">
+    <div>
+      {% if page.url != '/index.html' %}
+      <header>
+        {% include title.html %}
+      </header>
+      {% endif %}
+      <article>
+        {{ content }}
+      </article>
+      <div class="style line x2">
+      </div>
+      <div class="style line x4 dark">
+      </div>
+      <div class="style line x1">
+      </div>
     </div>
     <footer>
       {% include navigation.html %}
