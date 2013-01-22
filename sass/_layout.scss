@@ -7,6 +7,7 @@ article, header {
   width: 1120px;
 }
 
+
 header {
   text-align: right;
 }
@@ -14,6 +15,23 @@ article > div.bracket {
   padding: 120px 0;
   text-align: center;
 }
+
+@media screen and (max-width: 568px) {
+  header {
+    width: 100%;  
+  }
+
+  article {
+    width: 90%; 
+    > div.bracket {
+      padding: 50px 0; 
+    }
+  }
+  header {
+    text-align: center; 
+  }
+}
+
 
 footer > nav {
   text-align: center;
@@ -23,6 +41,18 @@ footer > nav {
     li {
       display: inline-block;
       margin: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 568px) {
+  footer > nav {
+    text-align: left;
+    ul {
+      display: block;
+      li {
+        width: 100%;
+      }
     }
   }
 }

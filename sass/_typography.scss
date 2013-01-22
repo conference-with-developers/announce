@@ -3,6 +3,14 @@ body {
   font-size: 12pt;
 }
 
+@media screen and (max-width: 568px) {
+  body {
+    font-size: 10pt;
+  }
+}
+
+
+
 hgroup.logotype {
   font-family: 'Raleway';
   text-align: right;
@@ -58,4 +66,8 @@ article > h2:before {
   font-size: 3em;
   color: #ededed;
   vertical-align: -0.2em;
+}
+
+a {
+  color: #ededed;
 }

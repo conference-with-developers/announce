@@ -1,1 +1,1 @@
-exclude: ['README.md', 'sass', 'Makefile']
+exclude: ['README.md', 'sass', 'Makefile', 'config.rb']
