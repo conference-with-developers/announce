@@ -13,11 +13,14 @@
   </head>
   <body>
     <div>
-      {% if page.url != '/index.html' %}
       <header>
+      {% if page.url != '/index.html' %}
         {% include title.html %}
-      </header>
       {% endif %}
+      </header>
+      <div id="over">
+      {% include navigation.html %}
+      </div>
       <article>
         {{ content }}
       </article>
@@ -28,7 +31,7 @@
       <div class="style line x1">
       </div>
     </div>
-    <footer>
+    <footer class="dark">
       {% include navigation.html %}
     </footer>
   </body>

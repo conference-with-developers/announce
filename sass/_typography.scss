@@ -1,6 +1,6 @@
 body {
   color: #223;
-  font-size: 12pt;
+  font-size: 10.5pt;
 }
 
 @media screen and (max-width: 568px) {
@@ -16,11 +16,11 @@ hgroup.logotype {
   text-align: right;
   h1 {
     color: #44a5cb;
-    font-size: 4.5em;
+    font-size: 4.6em;
   }
   h2 {
     color: #999;
-    font-size: 2.6em;
+    font-size: 2.3em;
   }
 }
 
@@ -40,6 +40,17 @@ nav {
 strong {
   font-size: 1.1em;
   font-weight: bold;
+}
+
+dt {
+  margin: 0.3em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 3em;
+  margin-bottom: 1.2em;
 }
 
 article > h1 {
@@ -69,5 +80,17 @@ article > h2:before {
 }
 
 a {
+  color: #003e59;
+
+}
+
+a.peatix {
+  margin-top: 1.5em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+footer.dark a {
   color: #ededed;
 }
