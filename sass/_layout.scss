@@ -85,7 +85,7 @@ section.speaker {
 
       h4 {
         font-weight: bold;
-      }
+      } 
 
     }
 
@@ -98,5 +98,20 @@ section.speaker {
 
 section.speaker:after {
   clear: both;
+}
+
+table {
+  thead {
+    display: none;
+  }
+  tr {
+    display: block;
+    margin: 15px 0;
+    border-bottom: 1px solid #003E59;
+  }
+  td {
+    display: inline-block;
+    margin: 0.4em;
+  }
 }
 
