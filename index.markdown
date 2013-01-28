@@ -24,6 +24,9 @@ conferenceWithDevelopersはiOS開発に携わる、すべての開発者に向�
 参加費
 : 無料
 
+お問い合わせ
+: confwd@gmail.com
+
 # チケットについて
 
 conferenceWithDevelopersでは、チケットの発行に[PeaTiX](http://peatix.com/)を利用させて頂いております。
@@ -36,6 +39,5 @@ LT参加チケット
 : 通常チケットに加え、LTへの参加が可能となるチケットです。LTを参加を希望される方はこちらをご購入ください。
 
 <a href="http://peatix.com/event/9727" class="peatix">&gt; チケットを申し込む</a>
-
 
 　

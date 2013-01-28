@@ -44,4 +44,14 @@ layout: default
 
 <div class="clear-fix"></div>
 　
+<section class="speaker">
+  <div class="profile">
+    <hgroup>
+      <h3>木下 誠</h3>
+      <h4><a href="http://hmdt.jp/">エイチエムディティ株式会社</a></h4>
+    </hgroup>
+  </div>
+</section>
 
+<div class="clear-fix"></div>
+　
