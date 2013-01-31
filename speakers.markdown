@@ -81,3 +81,24 @@ layout: default
 <div class="clear-fix"></div>
 
 　
+
+<section class="speaker">
+  <img src="./images/takeda.jpg">
+  <div class="profile">
+    <hgroup>
+      <h3>武田 祐一</h3>
+      <h4><a href="http://mixi.co.jp">株式会社ミクシィ</a></h4>
+    </hgroup>
+    <p>
+      株式会社ミクシィのエンジニアです。<br />
+      大阪大学大学院　基礎工学研究科　博士前期課程修了<br />
+      学生時代は、画像処理を専門に研究していました。<br />
+      2012年に入社し、今はiOSの開発を行っています。<br />
+      今回は、弊社での開発体制や環境についてお話したいと思います。<br />
+    </p>
+  </div>
+</section>
+
+<div class="clear-fix"></div>
+
+　
